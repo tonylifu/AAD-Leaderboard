@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LEADERBOARD</string>
+    <string name="tab_text_1">Learning IQ Leaders</string>
+    <string name="tab_text_2">Learning Leaders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello from Top IQ fragment</string>
+    <string name="hello_from_top_learners_fragment">Hello from Top Learners fragment</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryX">#3D3C3E</color>
+    <color name="colorPrimaryDarkX">#000000</color>
+    <color name="colorAccentX">#706868</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_orange">#000000</color>
+
+    <color name="colorPrimaryXX">#D83502</color>
+    <color name="colorPrimaryDarkXX">#7E2002</color>
+    <color name="colorAccentXX">#04302C</color>
+    <color name="country_color">#2B0304</color>
+    <color name="contry_color">#330304</color>
+</resources>

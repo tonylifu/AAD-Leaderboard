@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".TopLearnersFragment">
+
+    <!--<com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout> -->
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Progress Bar Starts -->
+
+        <!--<ProgressBar
+            android:id="@+id/mainPbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="200dp"
+            android:indeterminate="false"
+            android:minWidth="200dp"
+            android:minHeight="50dp"
+            android:progress="0" /> -->
+
+        <ProgressBar
+            android:id="@+id/mainPbarRoll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:minWidth="200dp"
+            android:minHeight="50dp"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@android:color/holo_red_dark"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/tvMainPbar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="250dp"
+            android:minWidth="200dp"
+            android:minHeight="50dp" />
+
+        <!-- Progress Bar Starts -->
+
+        <include layout="@layout/item_list_hours" />
+    </FrameLayout>
+
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="#6A0B0B"
+        android:tint="#FFFFFF"
+        app:srcCompat="@drawable/vertical_align_top" /> -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
