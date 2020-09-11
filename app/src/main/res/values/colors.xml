@@ -15,4 +15,5 @@
     <color name="colorAccentXX">#04302C</color>
     <color name="country_color">#2B0304</color>
     <color name="contry_color">#330304</color>
+    <color name="default_color">#D89206</color>
 </resources>
